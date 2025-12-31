@@ -1,14 +1,14 @@
 package cmd
 
 import (
-	"github.com/eldius/bubbletea-v2-pocs/internal/tui/console"
+	"github.com/eldius/bubbletea-v2-pocs/internal/tui/helpmenu"
 
 	"github.com/spf13/cobra"
 )
 
-// consoleCmd represents the console command
+// consoleCmd represents the helpmenu command
 var consoleCmd = &cobra.Command{
-	Use:   "console",
+	Use:   "helpmenu",
 	Short: "A brief description of your command",
 	Long: `A longer description that spans multiple lines and likely contains examples
 and usage of using your command. For example:
@@ -17,7 +17,7 @@ Cobra is a CLI library for Go that empowers applications.
 This application is a tool to generate the needed files
 to quickly create a Cobra application.`,
 	Run: func(cmd *cobra.Command, args []string) {
-		if err := console.Run(); err != nil {
+		if err := helpmenu.Run(); err != nil {
 			panic(err)
 		}
 	},

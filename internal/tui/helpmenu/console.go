@@ -1,4 +1,4 @@
-package console
+package helpmenu
 
 import (
 	"charm.land/bubbles/v2/help"

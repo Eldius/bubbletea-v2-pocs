@@ -1,3 +1,3 @@
 
-console:
-	go run ./cmd/cli console
+helpmenu:
+	go run ./cmd/cli helpmenu

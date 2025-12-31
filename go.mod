@@ -5,6 +5,7 @@ go 1.25.5
 require (
 	charm.land/bubbles/v2 v2.0.0-rc.1
 	charm.land/bubbletea/v2 v2.0.0-rc.2
+	charm.land/lipgloss/v2 v2.0.0-beta.3.0.20251120230642-dcccabe2cd63
 	github.com/eldius/initial-config-go v0.0.28
 	github.com/spf13/cobra v1.10.2
 )
@@ -12,7 +13,6 @@ require (
 require (
 	al.essio.dev/pkg/shellescape v1.6.0 // indirect
 	cel.dev/expr v0.25.1 // indirect
-	charm.land/lipgloss/v2 v2.0.0-beta.3.0.20251120230642-dcccabe2cd63 // indirect
 	cloud.google.com/go v0.123.0 // indirect
 	cloud.google.com/go/auth v0.18.0 // indirect
 	cloud.google.com/go/auth/oauth2adapt v0.2.8 // indirect

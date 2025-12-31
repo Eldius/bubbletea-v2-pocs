@@ -17,6 +17,7 @@ before:
 builds:
   - id: bubble-cli
     main: ./cmd/cli
+    binary: bubble-cli
     env:
       - CGO_ENABLED=0
     goos:
